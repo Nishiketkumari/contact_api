@@ -2,9 +2,8 @@ import express from "express";
 import mongoose from "mongoose";
 import bodyParser from "express"
 import userRouter from './routes/user.js'
-import contactRouter from './routes/contact.js'
+import contactRouter from './Routes/contact.js'
 import { config } from "dotenv";
-import contactController from '../controllers/contact.js';
 
 
 const app = express();
